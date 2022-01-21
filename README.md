@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# HDMovies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a code challenge for [Human Decode](https://humandecode.com/)
+
+## Note to reviewer(s):
+
+Right after I handed in the challenge, I noticed I missed the "Detail view" feature (currently clicking on a movie card takes you to the poster url).
+
+I'm working on it! If you're reviewing before I push the changes, I hope you can take my word for it that I can do it 😅 by creating a new ```/movie/:movieId``` route, making each movie card link to its corresponding detail view, getting the movie id from the url, fetching the movie details on render from [this endpoint](https://developers.themoviedb.org/3/movies/get-movie-details) and displaying the details to the user.
 
 ## Requisites
 
